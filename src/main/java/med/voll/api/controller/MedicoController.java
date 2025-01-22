@@ -29,7 +29,7 @@ public class MedicoController {
     public Page<DadosListagemMedico> listar(@PageableDefault(size = 10, sort = {"nome"}) Pageable paginacao){
         //Pageable é uma classe propria do springboot para trabalhar com paginação dos dados da sua API, e quando passamos
         // esta anotação serve para modificar parãmetros padrão da classe pageable
-        return repository.findAll(paginacao).map(DadosListagemMedico :: new);
+        return repository.findAllByAtivoTrue(paginacao).map(DadosListagemMedico :: new);
     }
 
     @PutMapping
@@ -45,6 +45,7 @@ public class MedicoController {
     @DeleteMapping("/{id}")
     @Transactional
     public void excluir(@PathVariable Long id) {
-        repository.deleteById(id);
+        var medico = repository.getReferenceById(id);
+        medico.excluir();
     }
 }

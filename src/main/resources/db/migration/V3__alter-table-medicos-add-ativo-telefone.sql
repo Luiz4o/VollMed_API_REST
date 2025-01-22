@@ -1,1 +1,1 @@
-alter table medicos add ativo tinyint;
+ALTER TABLE medicos ADD ativo TINYINT;
