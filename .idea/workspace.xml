@@ -5,9 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab1dceec-43a4-43ed-8ab4-47eae29ccb99" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/medico/DadosDetalhamentoMedico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/infra/TratadorDeErros.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/controller/MedicoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/controller/MedicoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/endereco/DadosEndereco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/endereco/DadosEndereco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/endereco/Endereco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/endereco/Endereco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/medico/DadosAtualizacaoMedico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/medico/DadosAtualizacaoMedico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/medico/DadosCadastroMedico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/medico/DadosCadastroMedico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/medico/DadosDetalhamentoMedico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/medico/DadosDetalhamentoMedico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/medico/DadosListagemMedico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/medico/DadosListagemMedico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/medico/Especialidade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/medico/Especialidade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/medico/Medico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/medico/Medico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/medico/MedicoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/medico/MedicoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,9 +27,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
         <option value="Record" />
+        <option value="Class" />
       </list>
     </option>
   </component>
