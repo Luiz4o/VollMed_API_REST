@@ -14,7 +14,9 @@ public record DadosCadastroMedico(
         @NotBlank
         @Email
         String email,
-        @NotBlank
+        // Caso coloque este parâmetro de mensagem em validações do Bean, quando ocorrer uma exception referente a ela
+        // está mensagem que será exibida no body da requisição
+        @NotBlank(message = "Telefone é obrigatório")
         String telefone,
         @NotBlank
         @Pattern(regexp = "\\d{4,6}") //esta anotação serve para validar usando expressão regular que o dado seja um digito de tamanho de 4 a 6 casa
