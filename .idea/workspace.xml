@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab1dceec-43a4-43ed-8ab4-47eae29ccb99" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/controller/AuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/user/AuthService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/user/DadosAutenticacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/user/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/infra/security/SecurityConfigurations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/user/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/infra/TratadorDeErros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/infra/exception/TratadorDeErros.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,26 +42,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.ApiApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.api [clean,install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.api [compile].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.api [flyway:clean,-X].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.api [flyway:clean,flyway:repair].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.api [flyway:clean...].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.api [flyway:repair].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/henri/Documents/minhapasta/Dev/Java/Curso_Spring_Boot_API_REST/src/main/resources/db/migration&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.annotationProcessors&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ApiApplication.executor": "Run",
+    "Maven.api [clean,install].executor": "Run",
+    "Maven.api [compile].executor": "Run",
+    "Maven.api [flyway:clean,-X].executor": "Run",
+    "Maven.api [flyway:clean,flyway:repair].executor": "Run",
+    "Maven.api [flyway:clean...].executor": "Run",
+    "Maven.api [flyway:repair].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/henri/Documents/minhapasta/Dev/Java/pagamentos",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="med.voll.api.domain.user" />
