@@ -1,5 +1,6 @@
 package med.voll.api.domain.paciente;
 
+
 import jakarta.validation.constraints.NotNull;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -15,4 +16,5 @@ public interface PacienteRepository extends JpaRepository<Paciente, Long> {
             p.id = :id
             """)
     boolean findAtivoById(@NotNull Long id);
+
 }
