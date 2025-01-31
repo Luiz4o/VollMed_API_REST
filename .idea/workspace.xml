@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38a36767-2382-4b2a-8783-603874f66ac7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V7__alter-table-paciente-add-column-telefone.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/controller/PacienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/controller/PacienteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/paciente/PacienteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/paciente/PacienteRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V2__alter-table-medicos-add-column-telefone.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V2__alter-table-medicos-add-column-telefone.sql" afterDir="false" />
-    </list>
+    <list default="true" id="38a36767-2382-4b2a-8783-603874f66ac7" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
