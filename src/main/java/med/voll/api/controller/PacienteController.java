@@ -32,7 +32,7 @@ public class PacienteController {
 
     @GetMapping
     public ResponseEntity<Page<DadosListagemPaciente>> listarPacientes(@PageableDefault(size = 10, sort = {"nome"}) Pageable paginacao){
-        Page<DadosListagemPaciente> pacientes = repository.findAll(paginacao).map(DadosListagemPaciente :: new);
+        var pacientes = repository.findAllByAtivoTrue(paginacao).map(DadosListagemPaciente :: new);
         return ResponseEntity.ok(pacientes);
     }
 
@@ -43,9 +43,11 @@ public class PacienteController {
         return ResponseEntity.ok().body(new DadosDetalhamentoPaciente(paciente));
     }
 
-    @PutMapping("/{id}")
+    @PutMapping
     @Transactional
     public ResponseEntity atualizarPaciente(@RequestBody @Valid DadosAtualizacaoPaciente dados){
+        System.out.println(dados.id() + dados.nome());
+
         var paciente = repository.getReferenceById(dados.id());
 
         paciente.atualizarInfoPaciente(dados);
