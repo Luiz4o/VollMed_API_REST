@@ -7,6 +7,8 @@ import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
+//Esta classe nao precisa de instância ela é controlada pelo proprio spring de forma que se acontecer algum erro ele irá verificar
+//aqui se este erro foi tratado se não lança a exception padrão
 @RestControllerAdvice
 public class TratadorDeErros {
 
